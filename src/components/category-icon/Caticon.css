@@ -1,0 +1,26 @@
+.caticon{
+    margin: 20px;
+    max-width: max-content;
+    align-items: center;   
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.caticon img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.caticon p{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}

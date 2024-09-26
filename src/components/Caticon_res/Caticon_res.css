@@ -1,0 +1,60 @@
+.catrestaurants{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 80px;
+    width: max-content;
+    justify-content: center;
+}
+
+.restaurantsCat:hover{
+    background-color: #d3d3d3;
+    border-radius: 30px;
+    
+}
+.catname{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+.hr{
+    width: 405px;
+    border: 1px solid gray;
+}
+
+.catrestaurants img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.restaurantsCat{
+    display: flex;
+    flex-direction: column;
+    margin: 0px -10px 0px 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.catrestname{
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.catrestaddress{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}

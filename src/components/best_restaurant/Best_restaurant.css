@@ -1,0 +1,45 @@
+.img-rest {
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.best-rest-container {
+    /* border: 1px solid black; */
+    width: max-content;
+    gap: 10px;
+    padding-bottom: 20px ;
+}
+.best-rest-container:hover{
+    /* border: 1px solid gray; */
+    border-radius: 30px;
+    /* box-shadow: 0px 3px 2px 0px; */
+    background-color: #d3d3d3;
+    /* padding-bottom: 20px; */
+}
+
+.res-name {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.cuisine {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: -18px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.city {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border: 1px solid black; */
+    /* width: max-content; */
+
+}
